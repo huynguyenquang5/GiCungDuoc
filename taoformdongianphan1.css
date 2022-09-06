@@ -1,0 +1,32 @@
+body {
+    background-color: #d6feff;
+
+}
+table {
+    width: 500px;
+    background-color: #ffffff;
+}
+p {
+    background-color: #ff4d1c;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.row1 {
+    background-color: #ff4d1c;
+    color: #ffffff;
+    height: 30px;
+    font-size: 20px;
+}
+.col1 {
+    color: #2641b2;
+    text-align: center;
+}
+
+.hobbies {
+    color: #ff9d77;
+}
+td{
+    height: 30px;
+    width: 100px;
+}
