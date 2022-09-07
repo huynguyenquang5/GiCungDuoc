@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="taoformdongianphan2.css">
+    <title>Tao form don gian phan 2</title>
+</head>
+<body>
+<table>
+  <tr>
+    <td colspan="3" class="row1">ĐĂNG KÝ HỌC VIÊN</td>
+  </tr>
+  <tr>
+    <td class="col1"><label for="username">Họ và tên</label></td>
+    <td><label><input style="width: 250px" type="text" name="username" id="username"/></label></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="col1"><label for="birth">Ngày sinh</label></td>
+    <td><label><input type="date" name="birth" id="birth"/></label></td>
+  </tr>
+  <tr>
+    <td class="col1">Giới tính</td>
+    <td>
+      <input type="radio" name="gender" value="Nam"/>Nam
+      <input type="radio" name="gender" value="Nữ"/>Nữ</td>
+  </tr>
+  <tr>
+    <td class="col1"><label for="address">Địa chỉ</label></td>
+    <td><label><textarea style="height: 60px; width: 200px" id="address"></textarea></label></td>
+  </tr>
+  <tr>
+    <td class="col1">Lớp</td>
+    <td>
+      <select style="width: 110px" name="grade">
+        <option value="choose">—Chọn Lớp—</option>
+        <option value="A">Lớp A</option>
+        <option value="B">Lớp B</option>
+        <option value="C">Lớp C</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td class="col1"><label for="email">Email</label></td>
+    <td><label><input style="width: 125px" type="email" name="email" id="email"/></label></td>
+  </tr>
+  <tr>
+    <td class="col1"><label for="tel">Điện thoại</label></td>
+    <td><label><input style="width: 125px" type="tel" name="tel" id="tel"/></label></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <input type="submit" name="submit" value="Đăng ký"/>
+      <input type="reset" name="reset" value="Nhập lại"/></td>
+  </tr>
+</table>
+</body>
+</html>
