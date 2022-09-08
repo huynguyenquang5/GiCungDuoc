@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ung dung chuyen doi tien te</title>
+  <script src="baitap-ungdungchuyendoitiente.js"></script>
+</head>
+<body>
+<table style="text-align: center; width: 500px">
+  <tr style="font-weight: bold">
+    <td><label for="amount">Amount</label></td>
+    <td>From Currency</td>
+    <td>To Currency</td>
+  </tr>
+  <tr>
+    <td><label><input type="number" name="amount" id="amount"></label></td>
+    <td>
+      <label><select id="fc">
+       <option value="VietNam">VietNam</option>
+       <option value="USA">USA</option>
+      </select></label>
+    </td>
+    <td>
+      <label><select id="tc">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+      </select></label>
+    </td>
+    <td><button onclick="Convert()">Convert</button></td>
+  </tr>
+</table>
+<br>
+<p id="result"></p>
+</body>
+</html>
