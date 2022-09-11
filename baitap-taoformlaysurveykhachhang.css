@@ -1,0 +1,30 @@
+
+form{
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 2.0;
+}
+#rate {
+    border-collapse: collapse;
+    border: 0.5px #dddddd solid;
+}
+#rate td{
+    border: 0.1px #dddddd solid;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+
+}
+#rate th{
+    border: 0.1px #dddddd solid;
+    width: 800px;
+    text-align: left;
+
+}
+#rate tr:nth-child(even){
+    background-color: #f5f5f5 ;
+}
+#rate tr:hover {
+    background-color: #ffffcf;
+}
